@@ -127,6 +127,9 @@
     .heading {
       font-size: 24px;
       height: auto;
+      
+      
+
     }
   
     #head3 {
@@ -136,16 +139,13 @@
   
     /* Image */
     .image {
-     .image {
         position: fixed;
         top: 30px;
         left: 20px;
-        margin: 10px auto;
+        margin: 10px;
         width: 80px;
         height: 80px;
       }
-}
-    }
   
     /* First Half */
     .first_half {
