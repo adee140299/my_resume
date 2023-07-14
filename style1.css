@@ -136,12 +136,13 @@
   
     /* Image */
     .image {
-      position:fixed;
-        top:30px;
-      width: 80px;
-      height: 80px;
-      top: 10px;
-      margin-left: 10px;
+     position: fixed;
+    top: 30px;
+    left: 20px;
+    margin: 10px auto;
+    width: 80px;
+    height: 80px;
+}
     }
   
     /* First Half */
