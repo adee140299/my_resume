@@ -1,0 +1,188 @@
+/* CSS for desktop view */
+
+/* Heading */
+.heading {
+    background-color: brown;
+    position: fixed;
+    top: -15px;
+    left: -1px;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+    color: black;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 30px;
+    z-index: 1;
+  }
+  
+  #head3 {
+    margin-top: -15px;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 20px;
+    position: relative;
+    left: -150px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: brown;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    bottom: 0;
+    left: -1px;
+  }
+  
+  /* Image */
+  .image {
+    border: 0px solid black;
+    box-sizing: border-box;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: fixed;
+    top: 20px;
+    margin-left: 20px;
+    z-index: 2;
+  }
+  
+  /* First Half */
+  .first_half {
+    text-align: justify;
+    width: 25%;
+  }
+  
+  .h3heading_contact {
+    font-size: 20px;
+    color: brown;
+    margin-top: 50%;
+    margin-left: 10px;
+  }
+  
+  .border {
+    border-bottom: 1px solid brown;
+    width: 110px;
+    margin-left: 10px;
+  }
+  
+  #mobile_number {
+    display: inline;
+    margin-left: 5px;
+    color: black;
+  }
+  
+  #address {
+    display: inline;
+    margin-left: 5px;
+    color: black;
+  }
+  
+  i {
+    color: brown;
+    margin-left: 10px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .h3 {
+    font-size: 20px;
+    color: brown;
+    margin-left: 10px;
+  }
+  
+  .unorderd_list {
+    margin-left: -10px;
+  }
+  
+  li#list_hindi_high {
+    margin-bottom: 30px;
+  }
+  
+  /* Second Half */
+  .second_half {
+    width: 50%;
+    text-align: justify;
+    position: absolute;
+    top: 150px;
+    left: 35%;
+  }
+  
+  div {
+    float: left;
+  }
+  
+  #para1 {
+    position: absolute;
+  }
+  
+  .thoda_left {
+    margin-left: 10px;
+  }
+  
+  /* CSS for mobile view */
+  @media only screen and (max-width: 600px) {
+    /* Heading */
+    .heading {
+      font-size: 24px;
+      height: auto;
+    }
+  
+    #head3 {
+      left: 0;
+      margin-top: 0;
+    }
+  
+    /* Image */
+    .image {
+      width: 80px;
+      height: 80px;
+      top: 10px;
+      margin-left: 10px;
+    }
+  
+    /* First Half */
+    .first_half {
+      width: 100%;
+      margin-top: 170px;
+      padding-bottom: 100px;
+    }
+  
+    .h3heading_contact {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  
+    /* Second Half */
+    .second_half {
+      width: 100%;
+      position: static;
+      top: auto;
+      left: 0;
+      margin-top: 10px;
+      padding-bottom: 100px;
+    }
+  
+    /* Additional adjustments for mobile layout */
+    .border {
+      margin-top: 5px;
+    }
+  
+    .unorderd_list {
+      margin-left: 0;
+      padding-left: 20px;
+    }
+  
+    li#list_hindi_high {
+      margin-bottom: 20px;
+    }
+  
+    .thoda_left {
+      margin-left: 0;
+      padding-left: 10px;
+      text-align: justify;
+      word-wrap: break-word;
+    }
+  }
+  
