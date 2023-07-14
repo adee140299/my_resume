@@ -35,15 +35,15 @@
   
   /* Image */
   .image {
-    border: 0px solid black;
-    box-sizing: border-box;
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    position: fixed;
-    top: 20px;
-    margin-left: 20px;
-    z-index: 2;
+     border: 0px solid black;
+  box-sizing: border-box;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: fixed;
+  top: 20px;
+  margin-left: 20px;
+  z-index: 2;
   }
   
   /* First Half */
